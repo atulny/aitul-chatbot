@@ -17,10 +17,7 @@ with st.sidebar:
     st.title('💬 Chat App')
     st.markdown('''
         ## About
-        This app is an LLM-powered chatbot built using:
-        - [Streamlit](https://streamlit.io/)
-        - [LangChain](https://python.langchain.com/)
-        - [OpenAI](https://platform.openai.com/docs/models) LLM model
+        Single document chatbot
         ''')
     add_vertical_space(5)
 load_dotenv()
