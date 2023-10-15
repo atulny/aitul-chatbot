@@ -8,3 +8,8 @@ langchain
 docx2txt
 fastapi
 
+pytube==15.0.0
+gradio == 3.27.0
+openai-whisper==20230314
+streamlit
+streamlit-extras

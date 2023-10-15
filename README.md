@@ -36,11 +36,15 @@ Enter `q` to exit the prompt at any time.
 ```python
 python3 chatbot.py
 ```
+## web interface
 
-## Coming soon
-Web interface and a Desktop UI
+The implementation is optimized for a single document.
+Built using Streamlit,you can start thr server bt running:
+ `streamlit web\main2.py`  from the root folder.
 
-Stay tuned!!
+
+
+Stay tuned for more updates!!
 
 ## -
 That's it. 
