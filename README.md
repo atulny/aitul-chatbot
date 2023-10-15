@@ -47,9 +47,10 @@ You may need to run `pip install faiss-cpu or faiss-gpu` depending on your machi
 
 
 
-Stay tuned for more updates!!
 
 ## -
+Stay tuned for more updates!!
+
 That's it. 
 
 It's not production grade but will get you started.
