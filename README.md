@@ -36,5 +36,13 @@ Enter `q` to exit the prompt at any time.
 ```python
 python3 chatbot.py
 ```
+
+## Coming soon
+Web interface and a Desktop UI
+
+Stay tuned!!
+
+
 That's it. 
+
 It's not production grade but will get you started.
