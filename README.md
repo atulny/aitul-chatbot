@@ -22,7 +22,7 @@ Copy the key to the  env file
 ## Add Documents
 Add documents for chat. Document types (.pdf, .dox, .txt)
 
-### There are no additional requirements
+### There are no additional requirements!
 
 
 ## Start chatting
