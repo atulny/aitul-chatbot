@@ -19,6 +19,9 @@ Clone the repository, set up the virtual environment( Python 3.11), and install 
 Copy the key to the  env file
 `OPENAI_API_KEY=sk-`
 
+# Add Documents
+Add documents for chat. Document types (.pdf, .dox, .txt)
+
 ## Start chatting
 Run chatbot, and start interacting with your files. 
 Place any files you would like to interact with inside the `/docs` folder. 
