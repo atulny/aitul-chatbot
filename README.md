@@ -6,7 +6,7 @@ Simple implementation of a chatbot.
 
 
 Python scripts to get started with building a multi document reader and chatbot.
-`chatbot.py` Can handle interacting with multiple different documents and document types (.pdf, .dox, .txt), 
+`chatbot.py` can handle interacting with multiple different documents and document types (.pdf, .dox, .txt), 
 and remembers the chat history and recent conversations.
 It uses embeddings and vector stores to send the relevant information to the LLM prompt. Also provides a chat interface
 via the terminal using stdin and stdout. Press `q` to escape the chat window.
@@ -44,6 +44,7 @@ Built using Streamlit,you can start the server by running:
  `streamlit web\main2.py`  from the root folder.
 
 You may need to run `pip install faiss-cpu or faiss-gpu` depending on your machine.
+
 
 
 Stay tuned for more updates!!
