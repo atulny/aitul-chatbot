@@ -3,7 +3,7 @@
 
 ## Summary
 Python scripts to get started with building a multi document reader and chatbot.
-`-chatbot.py` Can handle interacting with multiple different documents and document types (.pdf, .dox, .txt), 
+`chatbot.py` Can handle interacting with multiple different documents and document types (.pdf, .dox, .txt), 
 and remembers the chat history and recent conversations.
 It uses embeddings and vector stores to send the relevant information to the LLM prompt. Also provides a chat interface
 via the terminal using stdin and stdout. Press `q` to escape the chat window.
@@ -24,7 +24,7 @@ Kick of the multi-doc chatbot, and start interacting with your files. Place any 
 interact with inside the `/docs` folder. Enter `q` to exit the prompt at any time.
 
 ```python
-python3 chstbot.py
+python3 chatbot.py
 ```
 That's it. 
 It's not production grade but will get you started.
