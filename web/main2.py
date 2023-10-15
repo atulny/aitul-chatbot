@@ -19,7 +19,7 @@ with st.sidebar:
         ## About
         Single document chatbot
         ''')
-    add_vertical_space(5)
+    add_vertical_space(3)
 load_dotenv()
 def main():
     st.header("Chat with PDF 💬")
