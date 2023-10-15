@@ -20,8 +20,9 @@ Copy the key to the  env file
 `OPENAI_API_KEY=sk-`
 
 ## Start chatting
-Kick of the multi-doc chatbot, and start interacting with your files. Place any files you would like to
-interact with inside the `/docs` folder. Enter `q` to exit the prompt at any time.
+Run chatbot, and start interacting with your files. 
+Place any files you would like to interact with inside the `/docs` folder. 
+Enter `q` to exit the prompt at any time.
 
 ```python
 python3 chatbot.py
