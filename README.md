@@ -42,7 +42,7 @@ The implementation is optimized for a single document.
 Built using Streamlit,you can start thr server bt running:
  `streamlit web\main2.py`  from the root folder.
 
-You need to run `pip install faiss-cpu or faiss-gpu` depending on your machine.
+You may need to run `pip install faiss-cpu or faiss-gpu` depending on your machine.
 
 
 Stay tuned for more updates!!
