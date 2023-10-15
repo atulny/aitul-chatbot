@@ -8,6 +8,7 @@ and remembers the chat history and recent conversations.
 It uses embeddings and vector stores to send the relevant information to the LLM prompt. Also provides a chat interface
 via the terminal using stdin and stdout. Press `q` to escape the chat window.
 
+### There are no additional requirements
 
 ## Getting started
 
