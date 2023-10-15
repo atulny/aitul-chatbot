@@ -2,6 +2,9 @@
 # Chatbot using LangChain and OpenAI
 
 ## Summary
+Simple implementation of a chatbot.
+
+
 Python scripts to get started with building a multi document reader and chatbot.
 `chatbot.py` Can handle interacting with multiple different documents and document types (.pdf, .dox, .txt), 
 and remembers the chat history and recent conversations.
