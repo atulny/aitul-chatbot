@@ -15,8 +15,8 @@ def home(request: Request):
 
 @app.get("/getChatBotResponse")
 def get_bot_response(msg: str):
-    return str(english_bot.get_response(msg))
-
+  # call model
+  pass
 
 if __name__ == "__main__":
     uvicorn.run("main:app")
