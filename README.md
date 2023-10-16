@@ -41,7 +41,7 @@ python3 chatbot.py
 The implementation is optimized for a single document.
 
 Built using Streamlit,you can start the server by running:
- `streamlit web\main2.py`  from the root folder.
+ `streamlit run web\main2.py`  from the root folder.
 
 You may need to run `pip install faiss-cpu or faiss-gpu` depending on your machine.
 
