@@ -7,10 +7,11 @@ from dotenv import load_dotenv
 import pickle
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.vectorstores  import FAISS
+from langchain.vectorstores import FAISS
 from langchain.llms import OpenAI
 import os
-#streamlit web\main2.py
+
+# streamlit web\main2.py
 # pip install faiss-cpu or faiss-gpu
 
 with st.sidebar:
@@ -21,6 +22,9 @@ with st.sidebar:
         ''')
     add_vertical_space(3)
 load_dotenv()
+history = []
+
+
 def main():
     st.header("Chat with PDF 💬")
 
@@ -63,6 +67,7 @@ def main():
                 pickle.dump(VectorStore, f)
         # Accept user questions/query
         query = st.text_input("Ask questions about your Document:")
+        current_history = history[::-1]
         if query:
             docs = VectorStore.similarity_search(query=query, k=3)
 
@@ -70,8 +75,21 @@ def main():
             chain = load_qa_chain(llm=llm, chain_type="stuff")
             with get_openai_callback() as cb:
                 response = chain.run(input_documents=docs, question=query)
+                history.append(f"""
+                                    :blue[{query}]"
+
+
+                                    {response}
+
+
+
+                                    """)
                 print(cb)
             st.write(response)
+            if current_history:
+                st.markdown("""---""")
+                st.markdown("".join(current_history))
+
 
 if __name__ == "__main__":
     main()
