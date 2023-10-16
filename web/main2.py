@@ -41,7 +41,13 @@ def main():
             length_function=len
         )
         chunks = text_splitter.split_text(text=text)
+        if not chunks:
+            st.markdown(f"""
+            :red[Unable to extract text from `{pdf.name}`]
 
+            Please try again with a different PDF document.
+            """)
+            st.stop()
         # # embeddings
         store_name = pdf.name[:-4]
         st.write(f'{store_name}')
